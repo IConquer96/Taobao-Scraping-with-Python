@@ -30,7 +30,7 @@ def get_top_day_goods():
         'dnt': "1",
         'accept-encoding': "gzip, deflate",
         'accept-language': "zh-CN,zh;q=0.9",
-        'cookie': "COMMON_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYXBpcGMudGFva2V6aHVzaG91LmNvbS9sb2dpbiIsImlhdCI6MTUyNjAzMTI1MSwiZXhwIjoxNTI4NjIzMjUxLCJuYmYiOjE1MjYwMzEyNTEsImp0aSI6InhUUDYxbU12aFVLcXJlRkMiLCJzdWIiOjI1OTQ3Mn0.19cNB_6JnXzef1CbhNPLvMKg-VqguShdxeSCYu4eW08",
+        'cookie': "******************************************************************************************************",
         'cache-control': "no-cache",
         'postman-token': "8adf62ba-2f6f-4ecb-1870-082d14856c17"
         }
@@ -52,7 +52,7 @@ def get_top_hour_goods():
         'dnt': "1",
         'accept-encoding': "gzip, deflate",
         'accept-language': "zh-CN,zh;q=0.9",
-        'cookie': "COMMON_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYXBpcGMudGFva2V6aHVzaG91LmNvbS9sb2dpbiIsImlhdCI6MTUyNjAzMTI1MSwiZXhwIjoxNTI4NjIzMjUxLCJuYmYiOjE1MjYwMzEyNTEsImp0aSI6InhUUDYxbU12aFVLcXJlRkMiLCJzdWIiOjI1OTQ3Mn0.19cNB_6JnXzef1CbhNPLvMKg-VqguShdxeSCYu4eW08",
+        'cookie': "******************************************************************************************************",
         'cache-control': "no-cache",
         'postman-token': "512b1baa-1e8a-c760-726b-6a722426601c"
         }
@@ -77,7 +77,7 @@ def generate_img(good):
         'referer': "http://www.taokezhushou.com/",
         'accept-encoding': "gzip, deflate",
         'accept-language': "zh-CN,zh;q=0.9",
-        'cookie': "MEIQIA_EXTRA_TRACK_ID=128fDF5ilt7P6gCjDENCsCctgPl; stickTemplate=QQ; COMMON_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYXBpcGMudGFva2V6aHVzaG91LmNvbS9sb2dpbiIsImlhdCI6MTUyNjAzMTI1MSwiZXhwIjoxNTI4NjIzMjUxLCJuYmYiOjE1MjYwMzEyNTEsImp0aSI6InhUUDYxbU12aFVLcXJlRkMiLCJzdWIiOjI1OTQ3Mn0.19cNB_6JnXzef1CbhNPLvMKg-VqguShdxeSCYu4eW08; COMMON_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYXBpcGMudGFva2V6aHVzaG91LmNvbS9sb2dpbiIsImlhdCI6MTUyNjAzMTI1MSwiZXhwIjoxNTI4NjIzMjUxLCJuYmYiOjE1MjYwMzEyNTEsImp0aSI6InhUUDYxbU12aFVLcXJlRkMiLCJzdWIiOjI1OTQ3Mn0.19cNB_6JnXzef1CbhNPLvMKg-VqguShdxeSCYu4eW08; remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IjdlNWxOTk9WdFpHOXlxMGNGR3N3WFE9PSIsInZhbHVlIjoiZmhWemsybVhIYmlYM0hiYjVzM05jN0J5TTNLbXhwMU14STgwZDVOZXBjMzF4N3ZlV21rQ0NIKzVcL2dtN2QwMUw1eEVjU1VCbVpsSVhUSnA4XC9WVk10N1NKMEhPVTY4YmxieGxvMktsdGVlYz0iLCJtYWMiOiJlZDFlZmQzMmQyN2JmYjhkNzJjNzYwYTM3YmFlYmE5MDlhMzUwYzNlZGQ3NjZkNjA1MjczM2Y2MzZiMTliOTg0In0^^^%^^3D; XSRF-TOKEN=eyJpdiI6IjVwb3VxMHgxNklWYzlnZ0hCTGtWT3c9PSIsInZhbHVlIjoiYmpTXC95dmVzQkgzczVyOXJ5RlJxa3Jxb0JaUTZRRjhzUFQwTnFpbmVSdXZ1K1VjOXUycVdVaWFGbm9xNUp3VU9CSGcrQ25CdFZPZnFJbkx2OVpDcHVnPT0iLCJtYWMiOiIzZjBhMGYzN2NjNjA4NjE2ODk5ZGQ0MDE0M2RjMjI5ODYwZjBkYWI3NmNhZWUxMzdlNTkxNTk3MzM0NzgwNTM5In0^%^3D; taokezhushou_session=eyJpdiI6Ik51VEswbGlvMjBkYUNibTJtRmUwWkE9PSIsInZhbHVlIjoiNzBvSlRqSkp4czkzdDJCdWZYNkh5WTVhNVV6TXhPYmhpcHJBdnBqRVZzRlVHMEhuelZWdVhGcXNEYzJKQUFpVm5PXC81R0ZUbG9EWFBzRE95aEtpMWJnPT0iLCJtYWMiOiIyOTZiODAwNmJlOGIxYmI1MjFkZDFlODE1ZWMwMjMwNDg4ZjAyNTJkNmY5OTRlZjVjMDc4MzFhM2JlYWRlODM1In0^%^3D",
+        'cookie': "******************************************************************************************************",
         'postman-token': "8c3422c5-9403-7e03-18ef-48ec91cff0e7"
         }
     response = requests.request("GET", spurl, headers=spheaders)
@@ -114,7 +114,7 @@ def generate_img(good):
         'referer': "http://www.taokezhushou.com/detail/527227835390",
         'accept-encoding': "gzip, deflate",
         'accept-language': "zh-CN,zh;q=0.9",
-        'cookie': "MEIQIA_EXTRA_TRACK_ID=128fDF5ilt7P6gCjDENCsCctgPl; stickTemplate=QQ; remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IjdlNWxOTk9WdFpHOXlxMGNGR3N3WFE9PSIsInZhbHVlIjoiZmhWemsybVhIYmlYM0hiYjVzM05jN0J5TTNLbXhwMU14STgwZDVOZXBjMzF4N3ZlV21rQ0NIKzVcL2dtN2QwMUw1eEVjU1VCbVpsSVhUSnA4XC9WVk10N1NKMEhPVTY4YmxieGxvMktsdGVlYz0iLCJtYWMiOiJlZDFlZmQzMmQyN2JmYjhkNzJjNzYwYTM3YmFlYmE5MDlhMzUwYzNlZGQ3NjZkNjA1MjczM2Y2MzZiMTliOTg0In0%3D; COMMON_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYXBpcGMudGFva2V6aHVzaG91LmNvbS9sb2dpbiIsImlhdCI6MTUyNjAzMTI1MSwiZXhwIjoxNTI4NjIzMjUxLCJuYmYiOjE1MjYwMzEyNTEsImp0aSI6InhUUDYxbU12aFVLcXJlRkMiLCJzdWIiOjI1OTQ3Mn0.19cNB_6JnXzef1CbhNPLvMKg-VqguShdxeSCYu4eW08; XSRF-TOKEN=eyJpdiI6Im5DaTNtZndvSnE1b3ZKVXJHa2JJaVE9PSIsInZhbHVlIjoiVnlKUTZlbHJNUHFSOEJqRWtUZGw4clArak15WGdcL3hqT1daTmhiNHJYQzRkVFhFOE10UCtJTFlPRFFPWTRJSEJzcDJVY1RvbmdDNmIzeFR3VlRVQ0lRPT0iLCJtYWMiOiI2YTBkNjRlZGRiYmM5NzAzN2MxMDM1YzYzOTY5NGYwNTA5NGU0NmM0YWY5NzU0NGVlMTE4ZjY3MmI5ZjJmMDY0In0%3D; taokezhushou_session=eyJpdiI6IkFkeVdOY0FseCtjemZEcTk5N0ZSOWc9PSIsInZhbHVlIjoiR3V0bXlvd2x4Z21HdUY0M2tuU2FaXC9oQ0VvTlRHd2VURlFmekx0VlRVYlVFdk5nT2ZXbHRSZlhtQmtqV1NmdmducTk0aGloaTBDSk0xSFdcL2c5T3lTQT09IiwibWFjIjoiYTg1NTRmNDgzMDdlMDRhYTU2NjYzZDdiN2QyYWNjYmNhZjNmNDI3YTE2N2Y5NDA0Yjg5MjhjMWFjODdhYmE5NyJ9",
+        'cookie': "******************************************************************************************************",
         'cache-control': "no-cache",
         'postman-token': "91cec8a2-ca45-379c-8804-40ec579f3f9a"
         }
